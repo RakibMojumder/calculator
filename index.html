@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <div class="conatainer h-screen flex justify-center items-center">
+        <div class="calclator grid grid-cols-4 grid-rows-6">
+            <input data-previous-operand type="text" value="0" name="" id="previous-display"
+                class="col-span-4 bg-slate-900 focus:outline-none text-white text-5xl text-right">
+            <input data-current-operand type="text" name="" id="current-display"
+                class="col-span-4 bg-slate-900 focus:outline-none text-white text-5xl text-right">
+            <button
+                class="data-all-clear col-span-2 py-5 px-8 bg-sky-300 hover:bg-sky-200 hover:text-black text-white border border-white font-semibold text-2xl">AC</button>
+            <button
+                class="data-delete py-5 px-8 bg-sky-300 hover:bg-sky-200 hover:text-black text-white border border-white font-semibold text-2xl">DEL</button>
+            <button
+                class="data-number py-5 px-8 bg-sky-300 hover:bg-sky-200 hover:text-black text-white border border-white font-semibold text-2xl">/</button>
+            <button
+                class="data-number py-5 px-8 bg-sky-300 hover:bg-sky-200 hover:text-black text-white border border-white font-semibold text-2xl">1</button>
+            <button
+                class="data-number py-5 px-8 bg-sky-300 hover:bg-sky-200 hover:text-black text-white border border-white font-semibold text-2xl">2</button>
+            <button
+                class="data-number py-5 px-8 bg-sky-300 hover:bg-sky-200 hover:text-black text-white border border-white font-semibold text-2xl">3</button>
+            <button
+                class="data-number py-5 px-8 bg-sky-300 hover:bg-sky-200 hover:text-black text-white border border-white font-semibold text-2xl">*</button>
+            <button
+                class="data-number py-5 px-8 bg-sky-300 hover:bg-sky-200 hover:text-black text-white border border-white font-semibold text-2xl">4</button>
+            <button
+                class="data-number py-5 px-8 bg-sky-300 hover:bg-sky-200 hover:text-black text-white border border-white font-semibold text-2xl">5</button>
+            <button
+                class="data-number py-5 px-8 bg-sky-300 hover:bg-sky-200 hover:text-black text-white border border-white font-semibold text-2xl">6</button>
+            <button
+                class="data-number py-5 px-8 bg-sky-300 hover:bg-sky-200 hover:text-black text-white border border-white font-semibold text-2xl">+</button>
+            <button
+                class="data-number py-5 px-8 bg-sky-300 hover:bg-sky-200 hover:text-black text-white border border-white font-semibold text-2xl">7</button>
+            <button
+                class="data-number py-5 px-8 bg-sky-300 hover:bg-sky-200 hover:text-black text-white border border-white font-semibold text-2xl">8</button>
+            <button
+                class="data-number py-5 px-8 bg-sky-300 hover:bg-sky-200 hover:text-black text-white border border-white font-semibold text-2xl">9</button>
+            <button
+                class="data-number py-5 px-8 bg-sky-300 hover:bg-sky-200 hover:text-black text-white border border-white font-semibold text-2xl">-</button>
+            <button
+                class="data-number py-5 px-8 bg-sky-300 hover:bg-sky-200 hover:text-black text-white border border-white font-semibold text-2xl">.</button>
+            <button
+                class="data-number py-5 px-8 bg-sky-300 hover:bg-sky-200 hover:text-black text-white border border-white font-semibold text-2xl">0</button>
+            <button
+                class="data-equals col-span-2 py-5 px-8 bg-sky-300 hover:bg-sky-200 hover:text-black text-white border border-white font-semibold text-2xl">=</button>
+        </div>
+    </div>
+
+    <script src="./utilities.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
